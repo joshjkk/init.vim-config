@@ -1,6 +1,8 @@
 # init.vim
 Simplist neovim config file that just works.
 
+![Screenshot from 2022-12-03 17-07-12](https://user-images.githubusercontent.com/97398293/205452937-a92a4aaa-f7a6-40fb-b4b3-af2309bf9059.png)
+
 ## It Just Works
 This config file only requires only a few terminal commands to begin working, which makes it really quick to setup and begin using.
 
