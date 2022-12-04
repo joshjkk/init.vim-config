@@ -66,8 +66,11 @@ Plug 'preservim/nerdtree'
 " Vim arline
 Plug 'vim-airline/vim-airline'
 
-" Everforest colorscheme
-Plug 'sainnhe/everforest'
+" Treesitter syntax highlighting
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+
+" Gruvbox colorscheme
+Plug 'morhetz/gruvbox'
 
 call plug#end()
 
@@ -79,9 +82,7 @@ nnoremap <C-b> :NERDTreeToggle<CR>
 nnoremap <C-f> :NERDTreeFind<CR>
 
 " NERDTree size
-let g:NERDTreeWinSize=20
+let g:NERDTreeWinSize=30
 
-" Apply colorscheme
-colorscheme everforest
-let g:everforest_background='soft'
-
+" Enable colorscheme
+colorscheme gruvbox
