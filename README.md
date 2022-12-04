@@ -1,7 +1,7 @@
 # init.vim
 Simplist neovim config file that just works.
 
-![Screenshot from 2022-12-03 17-07-12](https://user-images.githubusercontent.com/97398293/205452937-a92a4aaa-f7a6-40fb-b4b3-af2309bf9059.png)
+![Screenshot from 2022-12-04 20-07-15](https://user-images.githubusercontent.com/97398293/205513136-5b8f8034-2054-4c7c-a43d-db9d0abe27c6.png)
 
 ## It Just Works
 This config file only requires only a few terminal commands to begin working, which makes it really quick to setup and begin using.
@@ -79,7 +79,7 @@ Clone the repo:
 git clone https://github.com/joshjkk/init.vim.git
 ```
 
-Move ```ibit.vim```:
+Move ```init.vim```:
 
 ``` bash
 mv init.vim ~/.config/nvim/init.vim
@@ -89,10 +89,24 @@ mv init.vim ~/.config/nvim/init.vim
 
 ### 5. Install the plugins
 
-Inside of neovim, press ```:``` to switch to command mode and type:
+Inside of neovim, in NORMAL mode, type:
 
 ``` bash
-PlugInstall
+:PlugInstall
+```
+
+<br>
+
+### 6. Install treesitter theme
+
+``` bash
+$ :TSInstall <language_to_install>
+```
+
+#### EXAMPLE:
+
+``` bash
+$ :TSInstall c
 ```
 
 Then, close and reopen neovim to a configured experience.
