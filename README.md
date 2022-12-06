@@ -82,7 +82,7 @@ git clone https://github.com/joshjkk/init.vim.git
 Move ```init.vim```:
 
 ``` bash
-mv init.vim ~/.config/nvim/init.vim
+mv init.vim-config/init.vim ~/.config/nvim/init.vim
 ```
 
 <br>
