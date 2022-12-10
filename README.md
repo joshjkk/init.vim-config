@@ -10,7 +10,7 @@ There aren't a lot of plugins in this config file, but I like it that way. I lik
 
 ## Installation
 
-### 1. Install [Neovim](https://github.com/neovim/neovim):
+### 1. Install [Neovim](https://github.com/neovim/neovim) >= 7.0.0:
 
 ### Linux
 
@@ -20,7 +20,7 @@ There aren't a lot of plugins in this config file, but I like it that way. I lik
 #### Debian
 
 ``` bash
-sudo apt install neovim
+sudo snap install --classic neovim
 ```
 #### Fedora 
 
