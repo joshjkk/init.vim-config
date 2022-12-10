@@ -76,7 +76,7 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
 Clone the repo:
 
 ``` bash
-git clone https://github.com/joshjkk/init.vim.git
+git clone https://github.com/joshjkk/init.vim-config.git
 ```
 
 Move ```init.vim```:
