@@ -42,25 +42,21 @@ sudo pacman -S neovim
 brew install neovim
 ```
 
-<br>
+### 2. Create Required Directories
 
-### 2. Create the required directories to place the config file and the plugins:
-
-Neovim directory:
+#### Neovim directory
 
 ``` bash
 mkdir ~/.config/nvim
 ```
 
-Plugins directory:
+#### Plugins directory
 
 ``` bash
 mkdir ~/.config/nvim/plugged
 ```
 
-<br>
-
-### 3. Install the [vim-plug](https://github.com/junegunn/vim-plug) plugin manager:
+### 3. Install the [vim-plug](https://github.com/junegunn/vim-plug) Plugin Manager:
 
 #### Unix, Linux
 
@@ -69,35 +65,55 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 ```
 
-<br>
+### 4. Install [Node.js](https://nodejs.org/en/) and [nvm](https://github.com/nvm-sh/nvm)
 
-### 4. Place ```init.vim``` into ```~/.config/nvim```
+#### Download the Install Script
 
-Clone the repo:
+``` bash
+curl -sL https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.0/install.sh -o install_nvm.sh
+```
+
+#### Run the Install Script
+
+``` bash
+bash install_nvm.sh
+```
+
+#### Restart Terminal
+
+``` bash
+bash --login
+```
+
+#### Install Latest Node.js Version with nvm
+
+``` bash
+nvm install --lts
+```
+
+### 5. Place ```init.vim``` into ```~/.config/nvim```
+
+#### Clone the repo
 
 ``` bash
 git clone https://github.com/joshjkk/init.vim-config.git
 ```
 
-Move ```init.vim```:
+#### Move ```init.vim``` into ```.config/nvim```
 
 ``` bash
 mv init.vim-config/init.vim ~/.config/nvim/init.vim
 ```
 
-<br>
+### 6. Install Plugins
 
-### 5. Install the plugins
-
-Inside of neovim, in NORMAL mode, type:
+#### Install Plugins
 
 ``` bash
 :PlugInstall
 ```
 
-<br>
-
-### 6. Install treesitter theme
+### 7. Install Treesitter Theme
 
 ``` bash
 $ :TSInstall <language_to_install>
