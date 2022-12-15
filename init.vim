@@ -72,6 +72,10 @@ Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 " Gruvbox colorscheme
 Plug 'morhetz/gruvbox'
 
+" Autocompletion
+" Use release tag (recommend)
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
 call plug#end()
 
 
