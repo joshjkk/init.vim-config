@@ -14,9 +14,6 @@ There aren't a lot of plugins in this config file, but I like it that way. I lik
 
 ### Linux
 
-<details>
-<summary>Distros</summary>
-
 #### Debian
 
 ``` bash
@@ -32,14 +29,6 @@ sudo dnf install neovim
 
 ``` bash
 sudo pacman -S neovim
-```
-
-</details>
-
-### Mac OS X
-
-``` bash
-brew install neovim
 ```
 
 ### 2. Create Required Directories
