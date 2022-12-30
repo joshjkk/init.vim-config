@@ -88,7 +88,7 @@ nvm install --lts
 git clone https://github.com/joshjkk/init.vim-config.git
 ```
 
-#### Move ```init.vim``` into ```.config/nvim```
+#### Move ```init.vim``` into ```~/.config/nvim```
 
 ``` bash
 mv init.vim-config/init.vim ~/.config/nvim/init.vim
@@ -102,16 +102,28 @@ mv init.vim-config/init.vim ~/.config/nvim/init.vim
 :PlugInstall
 ```
 
+### 7. Configure coc.nvim Autocompletion
+
+With the coc.nvim example config, <kbd>Tab</kbd> cycles through autocompletion selections, and skips the first.
+
+#### In order to fix this, add this line to ```~/.config/nvim/coc-settings.json```:
+
+```
+"suggest.noselect": true
+```
+
 ### 7. Install Treesitter Theme
 
 ``` bash
 $ :TSInstall <language_to_install>
 ```
 
-#### EXAMPLE:
+#### Example:
 
 ``` bash
 $ :TSInstall c
 ```
 
-Then, close and reopen neovim to a configured experience.
+### Final Step
+
+The final step is to enjoy this config. You are free to fork this and edit it all you want.
