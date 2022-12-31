@@ -1,8 +1,16 @@
+<div align="center">
+
 # My Neovim Config
 
-A basic and simple neovim config written in VimScript.
+### A basic and simple neovim config written in VimScript.
+
+![GitHub file size in bytes](https://img.shields.io/github/size/joshjkk/nvim-config/init.vim) ![GitHub](https://img.shields.io/github/license/joshjkk/nvim-config) ![GitHub release (latest by date)](https://img.shields.io/github/v/release/joshjkk/nvim-config)
+
+</div>
 
 ![preview image](./preview.png)
+
+My neovim config is tailored towards streamlined, clutter-free development in the terminal. Above is a sample C file to preview the look of the config.
 
 ## Installation
 
