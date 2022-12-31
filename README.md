@@ -126,6 +126,14 @@ In order to fix this, **add this line to ```~/.config/nvim/coc-settings.json```*
 
 After all these steps you should be ready to start editing. I hope you enjoy this config, you are free to fork this repo and edit it all you want.
 
+## Terminal Specs
+
+- Font: [**FantasqueSansMono NF**](https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/FantasqueSansMono/Regular/complete/Fantasque%20Sans%20Mono%20Regular%20Nerd%20Font%20Complete%20Windows%20Compatible.ttf)
+
+- Font Size: **17**
+
+- Terminal Size: **150x40**
+
 ## License
 
 nvim-config is licensed under the MIT License.
