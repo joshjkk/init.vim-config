@@ -1,5 +1,5 @@
-" joshjkk @ github
-" init.vim
+" joshjkk/nvim-config @ github
+" A basic and simple nvim config written in VimScript.
 
 " Always remain as a block cursor
 set guicursor=
@@ -68,8 +68,8 @@ Plug 'vim-airline/vim-airline'
 " Gruvbox colorscheme
 Plug 'morhetz/gruvbox'
 
-" Treesitter syntax highlighting
-Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+" Syntax highlighting
+Plug 'sheerun/vim-polyglot'
 
 " Autocompletion
 " Use release tag (recommend)

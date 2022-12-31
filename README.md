@@ -1,12 +1,8 @@
-# init.vim
-Simplist neovim config file that just works.
+# My Neovim Config
 
-![Screenshot from 2022-12-04 20-07-15](https://user-images.githubusercontent.com/97398293/205513136-5b8f8034-2054-4c7c-a43d-db9d0abe27c6.png)
+A basic and simple neovim config written in VimScript.
 
-## It Just Works
-This config file only requires only a few terminal commands to begin working, which makes it really quick to setup and begin using.
-
-There aren't a lot of plugins in this config file, but I like it that way. I like the lightweight feel to it, not having pop-ups everywhere while I try to read what I wrote.
+![preview image](./preview.png)
 
 ## Installation
 
@@ -47,7 +43,7 @@ mkdir ~/.config/nvim/plugged
 
 ### 3. Install the [vim-plug](https://github.com/junegunn/vim-plug) Plugin Manager:
 
-#### Unix, Linux
+#### Linux
 
 ``` bash
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
@@ -70,11 +66,15 @@ bash install_nvm.sh
 
 #### Restart Terminal
 
+Or use the following command:
+
 ``` bash
 bash --login
 ```
 
 #### Install Latest Node.js Version with nvm
+
+Install the latest long-term-support release of Node.js:
 
 ``` bash
 nvm install --lts
@@ -85,16 +85,18 @@ nvm install --lts
 #### Clone the repo
 
 ``` bash
-git clone https://github.com/joshjkk/init.vim-config.git
+git clone https://github.com/joshjkk/nvim-config.git
 ```
 
 #### Move ```init.vim``` into ```~/.config/nvim```
 
 ``` bash
-mv init.vim-config/init.vim ~/.config/nvim/init.vim
+mv nvim-config/init.vim ~/.config/nvim/init.vim
 ```
 
 ### 6. Install Plugins
+
+Using the vim-plug plugin manager, use the following command in COMMAND mode to install all the plugged repos:
 
 #### Install Plugins
 
@@ -106,24 +108,16 @@ mv init.vim-config/init.vim ~/.config/nvim/init.vim
 
 With the coc.nvim example config, <kbd>Tab</kbd> cycles through autocompletion selections, and skips the first.
 
-#### In order to fix this, add this line to ```~/.config/nvim/coc-settings.json```:
+In order to fix this, **add this line to ```~/.config/nvim/coc-settings.json```**:
 
 ```
 "suggest.noselect": true
 ```
 
-### 7. Install Treesitter Theme
+### Summary
 
-``` bash
-$ :TSInstall <language_to_install>
-```
+After all these steps you should be ready to start editing. I hope you enjoy this config, you are free to fork this repo and edit it all you want.
 
-#### Example:
+## License
 
-``` bash
-$ :TSInstall c
-```
-
-### Final Step
-
-The final step is to enjoy this config. You are free to fork this and edit it all you want.
+nvim-config is licensed under the MIT License.
